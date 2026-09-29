@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Love That Is Harmed</title>
+<meta name="description" content="RELI 230 · Reflection & Learning Journal, Prompt #2: Name your feelings.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="is-intro">
+
+<header class="topbar">
+  <a href="#home" class="wordmark">LOVE THAT IS HARMED<span>/ naming my feelings</span></a>
+  <button class="menu-btn" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+
+<nav class="menu" aria-hidden="true">
+  <ol>
+    <li><a href="#wheel">Naming My Feelings</a></li>
+    <li><a href="#anger">Love That Is Harmed</a></li>
+    <li><a href="#sadness">The Strongest Feeling</a></li>
+    <li><a href="#lake">American Lake</a></li>
+    <li><a href="#diver">The Diver</a></li>
+    <li><a href="#action">Where My Feelings Go</a></li>
+    <li><a href="#readings">Connections to the Readings</a></li>
+  </ol>
+</nav>
+
+<!-- ───────────── Hero: a lake in the rain ───────────── -->
+<section id="home" class="hero">
+  <svg class="land" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#1b2631"/><stop offset=".6" stop-color="#2f4150"/><stop offset="1" stop-color="#4a5d6b"/>
+      </linearGradient>
+      <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#3b5566"/><stop offset="1" stop-color="#101a22"/>
+      </linearGradient>
+    </defs>
+    <rect width="1600" height="900" fill="url(#sky)"/>
+    <g class="clouds" fill="#101820" opacity=".7">
+      <ellipse cx="300" cy="120" rx="360" ry="70"/><ellipse cx="900" cy="80" rx="420" ry="80"/><ellipse cx="1450" cy="140" rx="300" ry="70"/>
+    </g>
+    <path fill="#22313c" d="M0 560 C200 520 380 540 560 500 C760 460 980 520 1160 490 C1340 460 1480 500 1600 480 V620 H0Z"/>
+    <path fill="#17232c" d="M0 600 L60 560 L90 590 L130 540 L170 596 L230 570 L270 600 L1320 600 L1360 560 L1400 596 L1440 550 L1490 598 L1540 566 L1600 590 V640 H0Z"/>
+    <rect y="610" width="1600" height="290" fill="url(#water)"/>
+    <g class="ripples" fill="none" stroke="#9fb4c4" stroke-opacity=".25">
+      <ellipse cx="400" cy="700" rx="60" ry="6"/><ellipse cx="1000" cy="760" rx="80" ry="7"/><ellipse cx="1300" cy="690" rx="50" ry="5"/><ellipse cx="700" cy="820" rx="90" ry="8"/>
+    </g>
+  </svg>
+  <canvas id="rain" aria-hidden="true"></canvas>
+
+  <div class="intro-lines" aria-live="polite">
+    <p class="intro-line">When I think about the climate, I feel anger.</p>
+    <p class="intro-line">Frustration. Disappointment.</p>
+    <p class="intro-line">But the strongest is sadness.</p>
+  </div>
+  <button class="skip-intro">Skip intro <span class="ring-arrow">›</span></button>
+
+  <div class="hero-title">
+    <p class="kicker">RELI 230 · Journal Prompt #2 · Name Your Feelings</p>
+    <h1>Love That Is Harmed</h1>
+    <p class="sub">The anger that comes from love, and the sadness underneath it.</p>
+  </div>
+  <a href="#wheel" class="scroll-cue" aria-label="Scroll down">Scroll</a>
+</section>
+
+<main>
+
+<!-- ───────────── 1. The wheel ───────────── -->
+<section id="wheel" class="section">
+  <div class="section-head reveal">
+    <span class="kicker">01</span>
+    <h2>Naming My Feelings</h2>
+    <p class="lede">With the Climate Emotions Wheel, I named what I feel. They conflict, and all of them are true at once. Choose one.</p>
+  </div>
+  <div class="wheel-wrap reveal">
+    <div class="wheel" role="tablist" aria-label="My feelings about climate change">
+      <div class="wheel-center" aria-live="polite">
+        <span class="kicker"></span>
+        <h3></h3>
+        <p></p>
+      </div>
+    </div>
+    <ul class="legend-row">
+      <li><i class="k-anger"></i>Anger</li>
+      <li><i class="k-sad"></i>Sadness</li>
+      <li><i class="k-hope"></i>Hope</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ───────────── 2. Anger ───────────── -->
+<section id="anger" class="section anger">
+  <div class="section-head reveal">
+    <span class="kicker">02</span>
+    <h2>Love That Is Harmed</h2>
+  </div>
+  <div class="two">
+    <div>
+      <p class="reveal">I feel anger, and to be specific, frustration and disappointment: at how carelessly people act, and at the terrible consequences it brings for the climate and for nature.</p>
+      <p class="reveal">If it keeps going, up to half of all species may face extinction by 2100. A mass extinction reaches our farms and our food too. And still, people choose not to help. What is crazy is that many are not even aware of what they are doing.</p>
+      <p class="reveal">People are not interested. They don't talk about it. Everybody seems to miss the elephant in the room.</p>
+    </div>
+    <div class="stat reveal" aria-label="Up to 50 percent of species may face extinction by 2100">
+      <div class="dots" aria-hidden="true"></div>
+      <p><b>Up to 50%</b> of species may face extinction by 2100.</p>
+      <p class="note">Source: <a href="https://www.whatismissing.org" target="_blank" rel="noopener">What is Missing?</a></p>
+    </div>
+  </div>
+  <blockquote class="pull reveal">It is the anger that comes from love that is harmed: love for my hometown, for Kyrchyn, for my country, for a small lake fifteen minutes from campus. For everything.</blockquote>
+</section>
+
+<!-- ───────────── 3. Sadness ───────────── -->
+<section id="sadness" class="section sadness">
+  <div class="section-head reveal">
+    <span class="kicker">03</span>
+    <h2>The Strongest Feeling</h2>
+  </div>
+  <p class="reveal narrow big">Sadness is the strongest. I know what is happening, but I feel I can't change it, or even influence it. That helplessness is what makes me sad.</p>
+  <blockquote class="pull grief reveal">We are the smartest species that has ever lived, and we have been more harmful to the planet than any species in the history of the Earth.</blockquote>
+</section>
+
+<!-- ───────────── 4. American Lake ───────────── -->
+<section id="lake" class="section lake">
+  <div class="section-head reveal">
+    <span class="kicker">04</span>
+    <h2>American Lake</h2>
+    <p class="lede">Fifteen minutes from PLU.</p>
+  </div>
+  <div class="two">
+    <div>
+      <p class="reveal">Whenever I feel empty or sad, I go to American Lake. It is beautiful, and it brings joy to the whole community. On hot days people swim, fish, train, and simply enjoy it.</p>
+      <p class="reveal">But people also leave trash there. Once I saw a drunk couple throw a glass bottle into the lake. I couldn't understand why anyone would do that. That glass will stay there for hundreds of years, maybe thousands, and it makes it so hard to keep our lake clean.</p>
+      <p class="reveal">What hurt most was that they were a young couple: the next generation, the ones meant to keep the planet safe, healthy and clean. It is our duty to protect the Earth and nature. Seeing them care so little makes me sad.</p>
+    </div>
+    <div class="water reveal" aria-hidden="true">
+      <div class="surface"></div>
+      <div class="bottle"></div>
+      <span class="depth">hundreds of years · maybe thousands</span>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────── 5. The diver ───────────── -->
+<section id="diver" class="section diver">
+  <div class="bubbles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="diver-inner">
+    <span class="kicker reveal">05</span>
+    <h2 class="reveal">The Diver</h2>
+    <p class="reveal">But I also feel empowered and inspired by people. My brother's friend was a wonderful diver. In his free time, he would dive deep into the lake to collect trash. It is hard work, even dangerous, and at first I never understood why he would risk his life for something so small.</p>
+    <p class="reveal">But it was not small. He inspired people, and he inspired me. He made me see how powerful, and how positive, one person can be.</p>
+    <blockquote class="pull reveal">I want to be a person people look up to, someone who inspires them to do good.</blockquote>
+  </div>
+</section>
+
+<!-- ───────────── 6. Where my feelings go ───────────── -->
+<section id="action" class="section action">
+  <div class="section-head reveal">
+    <span class="kicker">06</span>
+    <h2>Where My Feelings Go</h2>
+    <p class="lede">Naming them is the first step. Then they become something.</p>
+  </div>
+  <p class="reveal narrow">My feelings go into action. My friends and I help clean up spaces, fields and parks. We read about it and learn about it, and we talk to people about it. That helps me feel better, because I see that I am not the only one who feels this way.</p>
+
+  <h3 class="reveal practice-title">My practice</h3>
+  <ul class="practice reveal">
+    <li><label><input type="checkbox" data-p="0"> When I feel empty or sad, go to American Lake.</label></li>
+    <li><label><input type="checkbox" data-p="1"> Clean up a park, a field or the shore with friends.</label></li>
+    <li><label><input type="checkbox" data-p="2"> Read and learn about what is happening.</label></li>
+    <li><label><input type="checkbox" data-p="3"> Talk about it with people, out loud.</label></li>
+  </ul>
+  <p class="practice-count reveal" aria-live="polite"></p>
+
+  <blockquote class="pull hope reveal">I am not the only one.</blockquote>
+</section>
+
+<!-- ───────────── 7. Readings ───────────── -->
+<section id="readings" class="section readings">
+  <div class="section-head reveal">
+    <span class="kicker">07</span>
+    <h2>Connections to the Readings</h2>
+    <p class="lede">Suzanne Crawford O'Brien, <em>Climate Anxiety and Spiritual Resilience</em>, Chapter 2: “Retrain your brain,” and the Climate Emotions Wheel</p>
+  </div>
+  <div class="read-grid">
+    <article class="reveal">
+      <span class="kicker">Chapter 2 · pp. 31–33</span>
+      <h3>Feelings are data</h3>
+      <p class="book">Naming our feelings, and putting them into words, images, music or action, calms the brain's alarm. Our emotions are some of our best data: they show us what we truly care about.</p>
+      <p>My anger shows what I love: my hometown, Kyrchyn, my country, American Lake. It is the anger that comes from love that is harmed.</p>
+    </article>
+    <article class="reveal">
+      <span class="kicker">Chapter 2 · pp. 27–28</span>
+      <h3>The elephant in the room</h3>
+      <p class="book">The chapter explains why people struggle to face climate change: we downplay how immediate the threat is, our brains misread the facts in predictable ways, and we want to believe we are good people in a community of good people.</p>
+      <p>I see this around me. People don't talk about it, and everybody seems to miss the elephant in the room. That is where my frustration comes from.</p>
+    </article>
+    <article class="reveal">
+      <span class="kicker">Chapter 2 · p. 24</span>
+      <h3>From feeling to action</h3>
+      <p class="book">People who feel climate distress are more likely to take climate action. Grief and anxiety, when they are faced and given shape, become part of the work.</p>
+      <p>That is true for me. My feelings go into action: cleaning up with friends, reading, and talking to people. And the diver showed me how much one person can do.</p>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>RELI 230 · Week Two · Personal Reflection &amp; Learning Journal, Prompt #2 — Name Your Feelings</p>
+  <p class="disclosure">The feelings, memories and ideas on this page are my own. I told them to an AI tool (Claude), which asked me reflection questions, rewrote my words into polished English, summarized the readings in section 07, and built the web page. The lake at the top is a drawing made for this page.</p>
+  <p>Feelings named with the <a href="https://www.climatementalhealth.net/wheel" target="_blank" rel="noopener">Climate Emotions Wheel</a> (Climate Mental Health Network). Extinction figure from <a href="https://www.whatismissing.org" target="_blank" rel="noopener">What is Missing?</a></p>
+  <a href="#home">Back to the lake ↑</a>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
