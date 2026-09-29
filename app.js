@@ -79,14 +79,14 @@
   /* ───────── 1. My feelings on the wheel ───────── */
   const C = { anger: 'var(--ember)', sad: 'var(--blue)', hope: 'var(--gold)' };
   const FEEL = [
-    { name: 'Anger', fam: 'anger', size: 108, text: 'At how carelessly people act, and the terrible consequences for the climate and for nature. It is the anger that comes from love that is harmed.' },
-    { name: 'Frustration', fam: 'anger', size: 92, text: 'People are not interested. They don\'t talk about it. Everybody seems to miss the elephant in the room.' },
-    { name: 'Disappointment', fam: 'anger', size: 120, text: 'Many people are not even aware of what they are doing, and when they could help, they choose not to.' },
-    { name: 'Sadness', fam: 'sad', size: 132, text: 'The strongest feeling of all. I know what is happening, but I feel I can\'t change it, or even influence it.' },
-    { name: 'Helplessness', fam: 'sad', size: 96, text: 'Knowing, and feeling that I cannot change anything. That is what turns into sadness.' },
-    { name: 'Grief', fam: 'sad', size: 100, text: 'We are the smartest species that ever lived, and the most harmful to the planet in the history of the Earth.' },
-    { name: 'Inspiration', fam: 'hope', size: 96, text: 'A diver who spent his free time pulling trash from the lake showed me how powerful one person can be.' },
-    { name: 'Empowerment', fam: 'hope', size: 96, text: 'When my friends and I clean up a park, read, or talk to people, I see I am not the only one.' },
+    { name: 'Anger', fam: 'anger', size: 108, text: 'At how carelessly people treat the only world we have, and at what it costs the climate, the animals, the land. Anger born from love.' },
+    { name: 'Frustration', fam: 'anger', size: 92, text: 'No one talks about it. There is an elephant in the room, and everyone has learned to walk around it.' },
+    { name: 'Disappointment', fam: 'anger', size: 120, text: 'So many people don\'t even know what they are doing. And many who could help choose not to.' },
+    { name: 'Sadness', fam: 'sad', size: 132, text: 'The deepest one. I can see what is happening, and I can\'t stop it. I can barely even touch it.' },
+    { name: 'Helplessness', fam: 'sad', size: 96, text: 'Knowing, and not being able to change anything. This is where the sadness begins.' },
+    { name: 'Grief', fam: 'sad', size: 100, text: 'The smartest species the Earth has ever known, and the most destructive.' },
+    { name: 'Inspiration', fam: 'hope', size: 96, text: 'One diver, alone, carrying trash up from the bottom of a lake. That was enough to change how I see one person\'s power.' },
+    { name: 'Empowerment', fam: 'hope', size: 96, text: 'A cleanup with friends. A conversation. A book. Each one reminds me I am not alone in this.' },
   ];
   const wheel = $('.wheel'), center = $('.wheel-center');
   const btns = FEEL.map((f, i) => {
